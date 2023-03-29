@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50C1339606D606DD5FD70591 /* Pods_IMDB_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D179329F996FD977784DB66A /* Pods_IMDB_demo.framework */; };
+		C707425F29D433B1008A1FE3 /* ItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707425E29D433B1008A1FE3 /* ItemsListView.swift */; };
+		C707426129D439E8008A1FE3 /* CommonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707426029D439E8008A1FE3 /* CommonCell.swift */; };
+		C707426429D43A94008A1FE3 /* ConfigurableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707426329D43A94008A1FE3 /* ConfigurableItem.swift */; };
+		C707426729D441C0008A1FE3 /* IMDBListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707426629D441C0008A1FE3 /* IMDBListModel.swift */; };
+		C707426929D442A0008A1FE3 /* IMDBListModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707426829D442A0008A1FE3 /* IMDBListModelBuilder.swift */; };
+		C707426C29D4662B008A1FE3 /* IMDBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707426B29D4662B008A1FE3 /* IMDBService.swift */; };
 		C7657ABD29D33814007919DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7657ABC29D33814007919DF /* AppDelegate.swift */; };
 		C7657ABF29D33814007919DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7657ABE29D33814007919DF /* SceneDelegate.swift */; };
 		C7657AC129D33814007919DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7657AC029D33814007919DF /* ViewController.swift */; };
@@ -16,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		198B9264AF4F042B1F7A3C0A /* Pods-IMDB_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB_demo.debug.xcconfig"; path = "Target Support Files/Pods-IMDB_demo/Pods-IMDB_demo.debug.xcconfig"; sourceTree = "<group>"; };
+		6F316C94EE0FF69DE0F41303 /* Pods-IMDB_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB_demo.release.xcconfig"; path = "Target Support Files/Pods-IMDB_demo/Pods-IMDB_demo.release.xcconfig"; sourceTree = "<group>"; };
+		C707425E29D433B1008A1FE3 /* ItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListView.swift; sourceTree = "<group>"; };
+		C707426029D439E8008A1FE3 /* CommonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCell.swift; sourceTree = "<group>"; };
+		C707426329D43A94008A1FE3 /* ConfigurableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableItem.swift; sourceTree = "<group>"; };
+		C707426629D441C0008A1FE3 /* IMDBListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDBListModel.swift; sourceTree = "<group>"; };
+		C707426829D442A0008A1FE3 /* IMDBListModelBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDBListModelBuilder.swift; sourceTree = "<group>"; };
+		C707426B29D4662B008A1FE3 /* IMDBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDBService.swift; sourceTree = "<group>"; };
 		C7657AB929D33814007919DF /* IMDB_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDB_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7657ABC29D33814007919DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7657ABE29D33814007919DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,7 @@
 		C7657AC529D33816007919DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7657AC829D33816007919DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7657ACA29D33816007919DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D179329F996FD977784DB66A /* Pods_IMDB_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDB_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C1339606D606DD5FD70591 /* Pods_IMDB_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43233DD33485D35F4243BA95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				198B9264AF4F042B1F7A3C0A /* Pods-IMDB_demo.debug.xcconfig */,
+				6F316C94EE0FF69DE0F41303 /* Pods-IMDB_demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5FD3F15EA9E829F56DC4ED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D179329F996FD977784DB66A /* Pods_IMDB_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C707425D29D4339B008A1FE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C707425E29D433B1008A1FE3 /* ItemsListView.swift */,
+				C707426029D439E8008A1FE3 /* CommonCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C707426229D43A6E008A1FE3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C707426329D43A94008A1FE3 /* ConfigurableItem.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C707426529D44190008A1FE3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C707426629D441C0008A1FE3 /* IMDBListModel.swift */,
+				C707426829D442A0008A1FE3 /* IMDBListModelBuilder.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C707426A29D46606008A1FE3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C707426B29D4662B008A1FE3 /* IMDBService.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		C7657AB029D33814007919DF = {
 			isa = PBXGroup;
 			children = (
 				C7657ABB29D33814007919DF /* IMDB_demo */,
 				C7657ABA29D33814007919DF /* Products */,
+				43233DD33485D35F4243BA95 /* Pods */,
+				B5FD3F15EA9E829F56DC4ED5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +126,10 @@
 		C7657ABB29D33814007919DF /* IMDB_demo */ = {
 			isa = PBXGroup;
 			children = (
+				C707426A29D46606008A1FE3 /* Manager */,
+				C707426529D44190008A1FE3 /* ViewModel */,
+				C707426229D43A6E008A1FE3 /* Protocol */,
+				C707425D29D4339B008A1FE3 /* View */,
 				C7657ABC29D33814007919DF /* AppDelegate.swift */,
 				C7657ABE29D33814007919DF /* SceneDelegate.swift */,
 				C7657AC029D33814007919DF /* ViewController.swift */,
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7657ACD29D33816007919DF /* Build configuration list for PBXNativeTarget "IMDB_demo" */;
 			buildPhases = (
+				A3B44486CD863E9F82CA1D6E /* [CP] Check Pods Manifest.lock */,
 				C7657AB529D33814007919DF /* Sources */,
 				C7657AB629D33814007919DF /* Frameworks */,
 				C7657AB729D33814007919DF /* Resources */,
+				397A530F1AAB4BDF167D95EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +179,7 @@
 				};
 			};
 			buildConfigurationList = C7657AB429D33814007919DF /* Build configuration list for PBXProject "IMDB_demo" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,14 +209,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		397A530F1AAB4BDF167D95EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMDB_demo/Pods-IMDB_demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMDB_demo/Pods-IMDB_demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMDB_demo/Pods-IMDB_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B44486CD863E9F82CA1D6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMDB_demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7657AB529D33814007919DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C7657AC129D33814007919DF /* ViewController.swift in Sources */,
+				C707426429D43A94008A1FE3 /* ConfigurableItem.swift in Sources */,
+				C707426C29D4662B008A1FE3 /* IMDBService.swift in Sources */,
 				C7657ABD29D33814007919DF /* AppDelegate.swift in Sources */,
 				C7657ABF29D33814007919DF /* SceneDelegate.swift in Sources */,
+				C707426129D439E8008A1FE3 /* CommonCell.swift in Sources */,
+				C707426929D442A0008A1FE3 /* IMDBListModelBuilder.swift in Sources */,
+				C707426729D441C0008A1FE3 /* IMDBListModel.swift in Sources */,
+				C707425F29D433B1008A1FE3 /* ItemsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +406,7 @@
 		};
 		C7657ACE29D33816007919DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198B9264AF4F042B1F7A3C0A /* Pods-IMDB_demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +435,7 @@
 		};
 		C7657ACF29D33816007919DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F316C94EE0FF69DE0F41303 /* Pods-IMDB_demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
